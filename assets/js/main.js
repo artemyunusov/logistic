@@ -1,4 +1,4 @@
-window.onload = function() {
+window.addEventListener('DOMContentLoaded', function() {
 	const swiper = new Swiper('.swiper', {
 		speed: 2000,
 		autoplay: {
@@ -29,4 +29,4 @@ window.onload = function() {
 		loop: true,
     spaceBetween: 100
 	});
-}
+})
