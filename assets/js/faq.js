@@ -43,3 +43,53 @@ faq.addEventListener('click', function(e){
     // target.classList.toggle("show");
   }
 })
+
+let counters = document.querySelectorAll('.works-col-h');
+let speed = 2200;
+
+let elem = document.querySelector('.works');
+
+  window.addEventListener('scroll', function(){
+    let posElem = elem.offsetTop;
+    let windowH = Math.ceil(window.pageYOffset + innerHeight / 3);
+
+      counters.forEach(counter => {
+        let fl = false;
+        let updCount = () => {
+          let target = +counter.getAttribute('data-num');
+          let count = +counter.innerText;
+      
+          let inc = target / speed;
+      
+          if(count < target){
+            counter.innerText = Math.ceil(count + inc);
+            setTimeout(updCount, 1);
+          } else{
+            count.innerText = target;
+          }
+        }
+
+        if(posElem < windowH + 200){
+          updCount();
+        }
+      })
+  })
+
+let burger = document.querySelector('.burger');
+let mask = document.querySelector('.body-mask');
+let nav = document.querySelector('.nav-mob');
+
+burger.addEventListener('click', function(){
+
+  if(burger.classList.contains('burger-clicked')){
+    burger.classList.remove('burger-clicked');
+    mask.classList.remove('active');
+    nav.classList.remove('active');
+  }
+
+  else{
+    burger.classList.add('burger-clicked');
+    mask.classList.add('active');
+    nav.classList.add('active');
+  }
+})
