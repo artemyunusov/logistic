@@ -106,6 +106,15 @@
   </div>
 
 	
+	<style>
+	   .burger,
+	   .nav-mob,
+	   .body-mask{
+	     opacity: 0; 
+	     visibility: hidden;
+	   }
+	</style>
+	
 	<section>
 		<div class="hero">
 			<div class="swiper">
@@ -1302,6 +1311,33 @@
   <script src="./assets/js/main.js" async></script>
   <script src="./assets/js/faq.js" async></script>
   <script src="./assets/js/lazysizes.min.js" async></script>
+
+  <style>
+
+    .nav-button{
+      animation: pulse-red 2s infinite;
+    }
+
+    @keyframes pulse-red {
+      0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 
+        rgba(203, 52, 43, 0.7);
+      }
+      70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px 
+        rgba(203, 52, 43, 0);
+      }
+      100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 
+        rgba(203, 52, 43, 0);
+      }
+    }
+  </style>
+
+
 </body>
 
 </html>
