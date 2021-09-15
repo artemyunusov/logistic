@@ -1,115 +1,3 @@
-.hero {
-  height: 750px;
-  position: relative;
-  overflow: hidden;
-}
-
-.hero-wrap {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 100%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-  z-index: 10;
-}
-
-.hero-content {
-  width: 100%;
-}
-
-.hero-title {
-  padding-right: 64rem;
-  margin-bottom: 1.5rem;
-}
-
-.hero-title h2 {
-  text-transform: uppercase;
-  line-height: 1.15;
-  font-size: 4.9rem;
-  font-weight: 700;
-  color: #192744;
-  font-family: rc;
-}
-
-.hero-text {
-  padding-right: 52rem;
-  margin-bottom: 5rem;
-}
-
-.hero-text p {
-  font-family: pp;
-  line-height: 1.3;
-  letter-spacing: 0.2px;
-  font-weight: 300;
-  font-size: 18px;
-  color: rgba(25, 39, 68, 0.64);
-}
-
-.hero-button {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-align: center;
-          align-items: center;
-}
-
-.hero-button span {
-  display: block;
-  padding: 1.2rem 4.5rem;
-  color: #fff;
-  font-family: pp;
-  font-size: 16px;
-  font-weight: 600;
-  text-transform: uppercase;
-  border: 2px solid #ec2552;
-  border-radius: 50px;
-  box-shadow: 0 1px 20px 0 rgba(236, 37, 82, 0.2);
-  -webkit-transition: all .3s linear;
-  transition: all .3s linear;
-}
-
-.hero-btn {
-  cursor: pointer;
-}
-
-.hero-btn-pink {
-  margin-right: 2rem;
-}
-
-.hero-btn-pink:hover span {
-  background-color: #fff;
-  color: #ec2552;
-}
-
-.hero-btn-pink span {
-  background-color: #ec2552;
-}
-
-.hero-btn-white:hover span {
-  background-color: #ec2552;
-  color: #fff;
-}
-
-.hero-btn-white span {
-  color: #ec2552;
-  background-color: #fff;
-}
-
-.triangle {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  height: 750px;
-  background-image: url("../images/triangle.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-  z-index: 3;
-}
-
 .welcome-wrap {
   padding: 10rem 0;
   display: -webkit-box;
@@ -132,7 +20,7 @@
   font-size: 3rem;
   color: #192744;
   text-transform: uppercase;
-  font-family: rc;
+  font-family: "Roboto";
 }
 
 .welcome-text {
@@ -147,7 +35,7 @@
   color: rgba(25, 39, 68, 0.64);
   line-height: 1.4;
   font-weight: 500;
-  font-family: pp;
+  font-family: "Roboto";
 }
 
 .welcome-person {
@@ -235,7 +123,7 @@
   font-weight: 700;
   color: #192744;
   text-transform: uppercase;
-  font-family: rc;
+  font-family: "Roboto";
 }
 
 .services-col-nz-text {
@@ -245,7 +133,7 @@
 .services-col-nz-text p {
   padding: 0 0.5rem 0 1.5rem;
   font-size: 1.6rem;
-  font-family: pp;
+  font-family: "Roboto";
   font-weight: 400;
   line-height: 1.4;
   color: #595959;
@@ -279,12 +167,12 @@
   text-transform: capitalize;
   font-weight: 700;
   color: #192744;
-  font-family: rc;
+  font-family: "Roboto";
 }
 
 .services-col-z-text p {
   font-size: 1.6rem;
-  font-family: pp;
+  font-family: "Roboto";
   font-weight: 400;
   line-height: 1.4;
   color: #595959;
@@ -349,7 +237,7 @@
   line-height: 1.4;
   letter-spacing: 0.2px;
   color: #fff;
-  font-family: rc;
+  font-family: "Roboto";
 }
 
 .trust-left-text {
@@ -360,7 +248,7 @@
 .trust-left-text p {
   color: #fff;
   font-size: 1.6rem;
-  font-family: pp;
+  font-family: "Roboto";
   line-height: 1.4;
   font-weight: 400;
 }
@@ -384,7 +272,7 @@
 .trust-right-text p {
   color: rgba(255, 255, 255, 0.9);
   line-height: 1.5;
-  font-family: pp;
+  font-family: "Roboto";
   letter-spacing: 0.5px;
 }
 
@@ -397,13 +285,13 @@
   font-weight: 700;
   color: #fff;
   letter-spacing: 0.5px;
-  font-family: rc;
+  font-family: "Roboto";
   font-size: 2.2rem;
 }
 
 .trust-right-job span {
   color: rgba(255, 255, 255, 0.9);
-  font-family: pp;
+  font-family: "Roboto";
   letter-spacing: 0.5px;
 }
 
@@ -421,7 +309,7 @@
 }
 
 .safe-title h2 {
-  font-family: rc;
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 3rem;
   text-transform: uppercase;
@@ -436,7 +324,7 @@
 .safe-text p {
   padding: 0 2rem 0 2rem;
   font-size: 2rem;
-  font-family: pp;
+  font-family: "Roboto";
   font-weight: 500;
   line-height: 1.4;
   color: rgba(25, 39, 68, 0.64);
@@ -450,7 +338,7 @@
   display: block;
   padding: 1.5rem 5rem;
   color: #fff;
-  font-family: pp;
+  font-family: "Roboto";
   font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
@@ -465,6 +353,46 @@
 .safe-btn span:hover {
   background-color: transparent;
   color: #ec2552;
+}
+
+@-webkit-keyframes pulse-red {
+  0% {
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(203, 52, 43, 0.7);
+  }
+
+  70% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(203, 52, 43, 0);
+  }
+
+  100% {
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(203, 52, 43, 0);
+  }
+}
+
+@keyframes pulse-red {
+  0% {
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(203, 52, 43, 0.7);
+  }
+
+  70% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(203, 52, 43, 0);
+  }
+
+  100% {
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(203, 52, 43, 0);
+  }
 }
 
 .special-bg {
@@ -511,7 +439,7 @@
   font-size: 3rem;
   color: #fff;
   text-transform: uppercase;
-  font-family: rc;
+  font-family: "Roboto";
 }
 
 .special-text {
@@ -524,7 +452,7 @@
   font-size: 16px;
   color: #fff;
   font-weight: 400;
-  font-family: pp;
+  font-family: "Roboto";
   line-height: 1.4;
 }
 
@@ -572,7 +500,7 @@
   line-height: 1.5;
   text-transform: uppercase;
   color: #fff;
-  font-family: pp;
+  font-family: "Roboto";
 }
 
 .special-right {
@@ -583,12 +511,15 @@
   background-color: #eee;
 }
 
-.faq-title h2 {
+.faq-title {
   padding: 1.8rem 2rem 1.5rem 5rem;
   font-size: 16px;
   font-weight: 700;
   color: #192744;
-  font-family: rc;
+  font-family: "Roboto";
+  cursor: pointer;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 .faq-text {
@@ -601,41 +532,16 @@
   font-size: 14px;
   color: #595959;
   font-weight: 400;
-  font-family: pp;
+  font-family: "Roboto";
 }
 
 .active {
   color: #ec2552;
+  border-top: 2px solid #ec2552;
 }
 
 .show {
   display: block;
-  -webkit-animation: faq .5s linear;
-          animation: faq .5s linear;
-}
-
-@-webkit-keyframes faq {
-  0% {
-    height: 0;
-    opacity: 0;
-  }
-
-  100% {
-    height: 100%;
-    opacity: 1;
-  }
-}
-
-@keyframes faq {
-  0% {
-    height: 0;
-    opacity: 0;
-  }
-
-  100% {
-    height: 100%;
-    opacity: 1;
-  }
 }
 
 .contacts-bg {
@@ -670,7 +576,7 @@
   font-weight: 700;
   color: #192744;
   text-transform: uppercase;
-  font-family: rc;
+  font-family: "Roboto";
   line-height: 1.4;
 }
 
@@ -689,7 +595,7 @@
   font-weight: 700;
   text-transform: capitalize;
   color: #192744;
-  font-family: rc;
+  font-family: "Roboto";
 }
 
 .contacts-block-add {
@@ -711,7 +617,7 @@
 .contacts-block-text span {
   font-weight: 400;
   color: #595959;
-  font-family: pp;
+  font-family: "Roboto";
   font-size: 16px;
   line-height: 1.4;
 }
@@ -745,34 +651,34 @@
   padding: 1rem 1.5rem;
   color: #595959;
   font-size: 16px;
-  font-family: pp;
+  font-family: "Roboto";
 }
 
 .form-input::-webkit-input-placeholder {
   color: #595959;
   font-size: 16px;
-  font-family: pp;
+  font-family: "Roboto";
   text-transform: uppercase;
 }
 
 .form-input::-moz-placeholder {
   color: #595959;
   font-size: 16px;
-  font-family: pp;
+  font-family: "Roboto";
   text-transform: uppercase;
 }
 
 .form-input:-ms-input-placeholder {
   color: #595959;
   font-size: 16px;
-  font-family: pp;
+  font-family: "Roboto";
   text-transform: uppercase;
 }
 
 .form-input::placeholder {
   color: #595959;
   font-size: 16px;
-  font-family: pp;
+  font-family: "Roboto";
   text-transform: uppercase;
 }
 
@@ -785,7 +691,7 @@
   margin: 0 auto;
   padding: 1rem 8rem;
   color: #fff;
-  font-family: pp;
+  font-family: "Roboto";
   font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
@@ -831,7 +737,7 @@
   font-size: 16px;
   font-weight: 400;
   color: #fff;
-  font-family: pp;
+  font-family: "Roboto";
   line-height: 1.4;
 }
 
@@ -846,7 +752,7 @@
   color: #fff;
   font-size: 1.8rem;
   text-transform: uppercase;
-  font-family: rc;
+  font-family: "Roboto";
 }
 
 .footer-col-title h2::before {
@@ -885,7 +791,7 @@
 .footer-col-menu li a {
   font-weight: 400;
   color: #fff;
-  font-family: pp;
+  font-family: "Roboto";
   text-transform: capitalize;
   font-size: 16px;
 }
@@ -932,7 +838,7 @@
   -webkit-box-pack: justify;
           justify-content: space-between;
   color: #fff;
-  font-family: pp;
+  font-family: "Roboto";
   font-size: 12px;
   text-transform: capitalize;
   font-weight: 400;
@@ -951,14 +857,22 @@
   z-index: 9997;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
+  -webkit-transition-delay: .3s;
+          transition-delay: .3s;
+  -webkit-transform: translateX(100%);
+      -ms-transform: translateX(100%);
+          transform: translateX(100%);
 }
 
-.active {
+.mob-active {
   opacity: 1;
   visibility: visible;
   pointer-events: all;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
 }
 
 .nav-mob {
@@ -967,15 +881,20 @@
   height: 100%;
   top: 10vh;
   right: 0;
+  overflow: hidden;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
   z-index: 9998;
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(100%);
+      -ms-transform: translateX(100%);
+          transform: translateX(100%);
 }
 
 .nav-fixed {
+  overflow: hidden;
   width: 100%;
   display: -webkit-box;
   display: flex;
@@ -997,12 +916,15 @@
   text-transform: uppercase;
 }
 
-.active {
+.mob-active {
   opacity: 1;
   visibility: visible;
   pointer-events: all;
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+  -webkit-transition: all .7s ease-in-out;
+  transition: all .7s ease-in-out;
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
 }
 
 .burger {
@@ -1065,18 +987,6 @@
   -webkit-transform: translateY(-50%) rotate(-45deg);
       -ms-transform: translateY(-50%) rotate(-45deg);
           transform: translateY(-50%) rotate(-45deg);
-}
-
-@media (max-width: 1366px) {
-  .slider-item-1 {
-    background-size: 110%;
-    background-position: 0 bottom;
-  }
-
-  .slider-item-2 {
-    background-size: 80%;
-    background-position: 130% top;
-  }
 }
 
 @media (max-width: 1280px) {
@@ -1157,6 +1067,16 @@
   .hero-button span {
     padding: 1.2rem 3.5rem;
     font-size: 14px;
+  }
+
+  .slider-item-1 {
+    background-size: cover;
+    background-position: 40% bottom;
+  }
+
+  .slider-item-2 {
+    background-size: cover;
+    background-position: 30% top;
   }
 
   .welcome-wrap {
@@ -1279,9 +1199,20 @@
   }
 
   .burger {
+    top: 61px;
     opacity: 1;
     visibility: visible;
     pointer-events: all;
+  }
+
+  .nav-mob {
+    position: fixed;
+    width: 45vw;
+  }
+
+  .body-mask {
+    position: fixed;
+    width: 45vw;
   }
 }
 
@@ -1291,8 +1222,11 @@
   }
 
   .header-top-left {
-    display: block;
+    display: -webkit-box;
+    display: flex;
     width: 100%;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
   }
 
   .header-top-call {
@@ -1335,6 +1269,16 @@
     margin-right: 0;
   }
 
+  .slider-item-1 {
+    background-size: cover;
+    background-position: 55% bottom;
+  }
+
+  .slider-item-2 {
+    background-size: cover;
+    background-position: 70% top;
+  }
+
   .works {
     -webkit-clip-path: polygon(0 14%, 100% 25%, 100% 100%, 0 100%);
             clip-path: polygon(0 14%, 100% 25%, 100% 100%, 0 100%);
@@ -1360,12 +1304,17 @@
             justify-content: space-between;
   }
 
+  .works-col-num {
+    width: 100px;
+  }
+
   .works-col-icon {
     width: 80px;
     height: 80px;
   }
 
   .works-col-text {
+    max-width: 75px;
     display: -webkit-box;
     display: flex;
     -webkit-box-align: center;
@@ -1376,10 +1325,6 @@
 
   .triangle {
     display: none;
-  }
-
-  .burger {
-    top: 77px;
   }
 
   .services-col-z {
@@ -1466,5 +1411,19 @@
   .footer-social-link svg {
     width: 26px;
     height: 26px;
+  }
+
+  .nav-mob {
+    position: fixed;
+    width: 100vw;
+  }
+
+  .body-mask {
+    position: fixed;
+    width: 100vw;
+  }
+
+  .burger {
+    top: 59px;
   }
 }
