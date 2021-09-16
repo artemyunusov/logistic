@@ -18,7 +18,7 @@
 .welcome-title h2 {
   font-weight: 700;
   font-size: 3rem;
-  color: #192744;
+  color: #003859;
   text-transform: uppercase;
   font-family: "Roboto";
 }
@@ -26,7 +26,7 @@
 .welcome-text {
   padding: 0 1.5rem;
   margin-bottom: 4rem;
-  border-left: 1px solid #ec2552;
+  border-left: 1px solid #ed382b;
 }
 
 .welcome-text p {
@@ -39,7 +39,7 @@
 }
 
 .welcome-person {
-  color: #192744;
+  color: #003859;
 }
 
 .welcome-name {
@@ -67,7 +67,7 @@
 }
 
 .partners {
-  background-color: #192744;
+  background-color: #003859;
 }
 
 .partners-wrap {
@@ -121,13 +121,13 @@
 .services-col-nz-title h2 {
   font-size: 3rem;
   font-weight: 700;
-  color: #192744;
+  color: #003859;
   text-transform: uppercase;
   font-family: "Roboto";
 }
 
 .services-col-nz-text {
-  border-left: 2px solid #ec2552;
+  border-left: 2px solid #ed382b;
 }
 
 .services-col-nz-text p {
@@ -166,7 +166,7 @@
   font-size: 2.5rem;
   text-transform: capitalize;
   font-weight: 700;
-  color: #192744;
+  color: #003859;
   font-family: "Roboto";
 }
 
@@ -242,7 +242,7 @@
 
 .trust-left-text {
   padding: 0 0 0 1.5rem;
-  border-left: 1px solid #ec2552;
+  border-left: 1px solid #ed382b;
 }
 
 .trust-left-text p {
@@ -313,12 +313,12 @@
   font-weight: 700;
   font-size: 3rem;
   text-transform: uppercase;
-  color: #192744;
+  color: #003859;
 }
 
 .safe-text {
   margin-bottom: 4rem;
-  border-left: 2px solid #ec2552;
+  border-left: 2px solid #ed382b;
 }
 
 .safe-text p {
@@ -342,8 +342,8 @@
   font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
-  border: 2px solid #ec2552;
-  background-color: #ec2552;
+  border: 2px solid #ed382b;
+  background-color: #ed382b;
   border-radius: 50px;
   box-shadow: 0 1px 20px 0 rgba(236, 37, 82, 0.2);
   -webkit-transition: all .3s linear;
@@ -352,7 +352,7 @@
 
 .safe-btn span:hover {
   background-color: transparent;
-  color: #ec2552;
+  color: #ed382b;
 }
 
 @-webkit-keyframes pulse-red {
@@ -444,7 +444,7 @@
 
 .special-text {
   margin-bottom: 6rem;
-  border-left: 1px solid #ec2552;
+  border-left: 1px solid #ed382b;
 }
 
 .special-text p {
@@ -468,11 +468,11 @@
 }
 
 .special-grid-item:nth-child(1) {
-  border-right: 1px solid #ec2552;
+  border-right: 1px solid #ed382b;
 }
 
 .special-grid-item:nth-child(3) {
-  border-right: 1px solid #ec2552;
+  border-right: 1px solid #ed382b;
 }
 
 .special-grid-block {
@@ -515,7 +515,7 @@
   padding: 1.8rem 2rem 1.5rem 5rem;
   font-size: 16px;
   font-weight: 700;
-  color: #192744;
+  color: #003859;
   font-family: "Roboto";
   cursor: pointer;
   -webkit-transition: all .3s ease-in-out;
@@ -536,8 +536,8 @@
 }
 
 .active {
-  color: #ec2552;
-  border-top: 2px solid #ec2552;
+  color: #ed382b;
+  border-top: 2px solid #ed382b;
 }
 
 .show {
@@ -574,7 +574,7 @@
 .contacts-title h2 {
   font-size: 3rem;
   font-weight: 700;
-  color: #192744;
+  color: #003859;
   text-transform: uppercase;
   font-family: "Roboto";
   line-height: 1.4;
@@ -583,7 +583,7 @@
 .contacts-block {
   padding-left: 2rem;
   margin-bottom: 4rem;
-  border-left: 2px solid #ec2552;
+  border-left: 2px solid #ed382b;
 }
 
 .contacts-block-title {
@@ -594,7 +594,7 @@
   font-size: 2.2rem;
   font-weight: 700;
   text-transform: capitalize;
-  color: #192744;
+  color: #003859;
   font-family: "Roboto";
 }
 
@@ -610,7 +610,7 @@
   margin-right: 2rem;
   width: 20px;
   height: 20px;
-  background-color: #ec2552;
+  background-color: #ed382b;
   border-radius: 50%;
 }
 
@@ -630,7 +630,7 @@
           align-items: center;
   -webkit-box-pack: center;
           justify-content: center;
-  background-color: #192744;
+  background-color: #003859;
 }
 
 .form {
@@ -695,8 +695,8 @@
   font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
-  border: 2px solid #ec2552;
-  background-color: #ec2552;
+  border: 2px solid #ed382b;
+  background-color: #ed382b;
   border-radius: 50px;
   box-shadow: 0 1px 20px 0 rgba(236, 37, 82, 0.2);
   cursor: pointer;
@@ -706,11 +706,11 @@
 
 .form-btn:hover {
   background-color: transparent;
-  color: #ec2552;
+  color: #ed382b;
 }
 
 .footer {
-  background-color: #192744;
+  background-color: #003859;
 }
 
 .footer-wrap {
@@ -762,7 +762,7 @@
   left: 0;
   width: 50%;
   height: 2px;
-  background-color: #ec2552;
+  background-color: #ed382b;
 }
 
 .footer-col-grid {
@@ -909,6 +909,7 @@
 
 .nav-fixed-item {
   margin-bottom: 3rem;
+  text-align: center;
 }
 
 .nav-fixed-link {
@@ -987,6 +988,64 @@
   -webkit-transform: translateY(-50%) rotate(-45deg);
       -ms-transform: translateY(-50%) rotate(-45deg);
           transform: translateY(-50%) rotate(-45deg);
+}
+
+.to-top {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(237, 56, 43, 0.3);
+  border-radius: 50%;
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  z-index: 9999;
+}
+
+.to-top-wrap {
+  width: 100%;
+  height: 100%;
+}
+
+.to-top-item {
+  position: absolute;
+  top: 45%;
+  width: 20px;
+  height: 2px;
+  background-color: #003859;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.to-top-item-1 {
+  left: 9px;
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.to-top-item-2 {
+  right: 8px;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.show-tt {
+  display: block;
+  opacity: 1;
+  pointer-events: all;
+  visibility: visible;
+}
+
+.error {
+  border-color: #ed382b;
+  box-shadow: 0 0 10px 0 #ed382b;
 }
 
 @media (max-width: 1280px) {
@@ -1392,6 +1451,10 @@
 
   .footer-col-grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer-col-item img {
+    width: 100%;
   }
 
   .footer-low-wrap {

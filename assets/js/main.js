@@ -21,6 +21,20 @@ $(document).ready(function(){
       {
         breakpoint: 1024,
         settings: {
+          slidesToShow: 6,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 6,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 450,
+        settings: {
           slidesToShow: 4,
           slidesToScroll: 1
         }

@@ -1,16 +1,16 @@
-$(document).ready(function() {
-  $(".form").submit(function() {
-      $.ajax({
-          type: "POST",
-          url: "send.php",
-          data: $(this).serialize()
-      }).done(function() {  
-       $('.form')[0].reset();
-       $("#sucess").alert('xorowo');
-      });
-      return false;
-  });
-});
+// $(document).ready(function() {
+//   $(".form").submit(function() {
+//       $.ajax({
+//           type: "POST",
+//           url: "send.php",
+//           data: $(this).serialize()
+//       }).done(function() {  
+//        $('.form')[0].reset();
+//        $("#sucess").alert('xorowo');
+//       });
+//       return false;
+//   });
+// });
 
 $(function(){
 
@@ -70,6 +70,7 @@ $(".burger").click(function () {
   $(this).toggleClass('burger-clicked');
   $('.body-mask').toggleClass('mob-active');
   $('.nav-mob').toggleClass('mob-active');
+  $(document.body).addClass('oh');
 });
 
 let mask = document.querySelector('.body-mask');
@@ -88,6 +89,7 @@ menuFixed.addEventListener('click', function(e){
     scrollToTarget(link.hash);
     if(mask.classList.contains('mob-active')){
       mask.classList.remove('mob-active');
+      document.body.classList.remove('oh');
       burger.classList.remove('burger-clicked');
       nav.classList.remove('mob-active');
     }
@@ -124,3 +126,40 @@ function scrollToTarget(id){
 //     }
 //   }
 // })
+
+let toTop = document.querySelector('.to-top');
+// let winPos = window.pageYOffset;
+
+// console.log(winPos, innerHeight);
+
+window.addEventListener('scroll', function(){
+  let winPos = window.pageYOffset;
+
+  if(winPos > innerHeight / 2){
+    toTop.classList.add('show-tt');
+  }
+  else{
+    toTop.classList.remove('show-tt');
+  }
+
+})
+
+window.addEventListener('load', function(){
+  let winPos = window.pageYOffset;
+
+  if(winPos > innerHeight  / 2){
+    toTop.classList.add('show-tt');
+  }
+  else{
+    toTop.classList.remove('show-tt');
+  }
+
+})
+
+toTop.addEventListener('click', function(){
+
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  })
+})
