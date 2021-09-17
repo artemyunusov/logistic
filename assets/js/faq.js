@@ -70,7 +70,7 @@ $(".burger").click(function () {
   $(this).toggleClass('burger-clicked');
   $('.body-mask').toggleClass('mob-active');
   $('.nav-mob').toggleClass('mob-active');
-  $(document.body).addClass('oh');
+  $(document.body).toggleClass('oh');
 });
 
 let mask = document.querySelector('.body-mask');

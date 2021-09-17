@@ -48,6 +48,7 @@ $(document).ready(function(){
     dots: false,
     speed: 3000,
     autoplay: true,
-    arrows: false
+    arrows: false,
+    adaptiveHeight: true
   });
 })
