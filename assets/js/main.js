@@ -46,9 +46,9 @@ $(document).ready(function(){
     slidesToShow: 1,
     slidesToScroll: 1,
     dots: false,
-    speed: 3000,
+    autoplaySpeed: 5000,
+    speed: 5000,
     autoplay: true,
-    arrows: false,
-    adaptiveHeight: true
+    arrows: false
   });
 })

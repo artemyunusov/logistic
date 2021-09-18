@@ -163,3 +163,16 @@ toTop.addEventListener('click', function(){
     behavior: "smooth"
   })
 })
+
+let contact = document.querySelector('.safe-btn');
+
+contact.addEventListener('click', function(e){
+  let link = e.target.parentNode;
+  let hash = link.hash;
+
+  if(link.classList.contains('safe-btn')){
+    e.preventDefault();
+    scrollToTarget(link.hash);
+  }
+
+})
