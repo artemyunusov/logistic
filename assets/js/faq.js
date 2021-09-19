@@ -29,7 +29,7 @@ $(function(){
 });
 
 let counters = document.querySelectorAll('.works-col-h');
-let speed = 2200;
+let speed = 300;
 
 let elem = document.querySelector('.works');
 
